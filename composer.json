@@ -1,0 +1,24 @@
+{
+    "name": "magit/module-system-config-checkboxtoggle",
+    "description": "System Config CheckboxToggle",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Shulgin Tal",
+            "email": "shulgin23@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magit\\SystemConfigCheckboxToggle\\": ""
+        }
+    }
+}
