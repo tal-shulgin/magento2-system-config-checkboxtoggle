@@ -1,6 +1,6 @@
 <?php
 
-namespace Magit\SystemConfigCheckboxToggle\Magento\Framework\View\Element\Html;
+namespace Mageit\SystemConfigCheckboxToggle\Magento\Framework\View\Element\Html;
 
 use Magento\Framework\View\Element\Context;
 use Magento\Config\Model\Config\Source\Yesno;
@@ -12,7 +12,7 @@ class Toggle extends Select
     /**
      * @var Yesno
      */
-    private $source;
+    private Yesno $source;
 
     public function __construct(
         Context $context,
@@ -28,7 +28,7 @@ class Toggle extends Select
      * @return $this
      * @throws LocalizedException
      */
-    public function setInputName($value)
+    public function setInputName($value): static
     {
         return $this->setName($value);
     }
@@ -36,7 +36,7 @@ class Toggle extends Select
     /**
      * @return string
      */
-    protected function _toHtml()
+    protected function _toHtml(): string
     {
         if (!$this->getOptions()) {
             $this->setOptions($this->source->toOptionArray());

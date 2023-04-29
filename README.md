@@ -1,6 +1,6 @@
 # Magento2 Module System Config CheckboxToggle
 
-``magit/module-system-config-checkboxtoggle``
+``Mageit/module-system-config-checkboxtoggle``
 
 - [Main Functionalities](#markdown-header-main-functionalities)
 - [Installation](#markdown-header-installation)
@@ -16,7 +16,7 @@ System Config CheckboxToggle
 
 ### Type 1: Zip file
 
-- Unzip the zip file in `app/code/Magit`
+- Unzip the zip file in `app/code/Mageit`
 - Enable the module by running `php bin/magento module:enable Shulgin_SystemConfigCheckboxToggle`
 - Apply database updates by running `php bin/magento setup:upgrade`\*
 - Flush the cache by running `php bin/magento cache:flush`
@@ -28,7 +28,7 @@ System Config CheckboxToggle
   - public repository `packagist.org`
   - public github repository as vcs
 - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
-- Install the module composer by running `composer require Magit/module-system-config-checkboxtoggle`
+- Install the module composer by running `composer require Mageit/module-system-config-checkboxtoggle`
 - enable the module by running `php bin/magento module:enable Shulgin_SystemConfigCheckboxToggle`
 - apply database updates by running `php bin/magento setup:upgrade`\*
 - Flush the cache by running `php bin/magento cache:flush`
@@ -47,5 +47,5 @@ in system.xml add filed: \
 in system config dynamicrow use :
 
 ```
-Magit\SystemConfigCheckboxToggle\Magento\Framework\View\Element\Html\Toggle
+Mageit\SystemConfigCheckboxToggle\Magento\Framework\View\Element\Html\Toggle
 ```

@@ -1,5 +1,5 @@
 {
-    "name": "magit/module-system-config-checkboxtoggle",
+    "name": "mageit/module-system-config-checkboxtoggle",
     "description": "System Config CheckboxToggle",
     "type": "magento2-module",
     "license": "GPL-3.0",
@@ -18,7 +18,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Magit\\SystemConfigCheckboxToggle\\": ""
+            "Mageit\\SystemConfigCheckboxToggle\\": ""
         }
     }
 }

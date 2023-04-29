@@ -1,5 +1,5 @@
 <?php
-namespace Magit\SystemConfigCheckboxToggle\Magento\Framework\Data\Form\Element;
+namespace Mageit\SystemConfigCheckboxToggle\Magento\Framework\Data\Form\Element;
 
 use Magento\Framework\Escaper;
 use Magento\Framework\Data\Form\Element\Checkbox;
@@ -35,9 +35,9 @@ Class ToggleCheckbox extends Checkbox {
     /**
      * Get the after element Javascript.
      *
-     * @return mixed
+     * @return string
      */
-    public function getAfterElementJs()
+    public function getAfterElementJs(): string
     {
         $htmlId = $this->getHtmlId();
         $afterElementJs =  $this->getData('after_element_js');
