@@ -1,6 +1,6 @@
 {
     "name": "mageit/module-system-config-checkboxtoggle",
-    "description": "System Config CheckboxToggle",
+    "description": "System Config Ui CheckboxToggle",
     "type": "magento2-module",
     "license": "GPL-3.0",
     "version": "1.0.0",

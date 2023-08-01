@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Mageit\SystemConfigCheckboxToggle\Magento\Framework\View\Element\Html;
 
 use Magento\Framework\View\Element\Context;
